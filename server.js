@@ -30,3 +30,9 @@ const port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`);
 });
+
+/* Now To run the app locally you need to pass the following commands in the terminal
+    
+    npm run dev
+
+*/
